@@ -11,3 +11,5 @@ setwd("C:/Users/flynn/OneDrive/Desktop/Augie Junior Year/DATA 332-01")
 
 df_ladybug <- read_excel("FinalProject/Ladybug Data.xlsx", sheet = 1)
 df_scanladybug <- read_excel("FinalProject/Scan Ladybug Data.xlsx", sheet = 1)
+
+##edit
