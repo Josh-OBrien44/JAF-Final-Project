@@ -33,7 +33,7 @@ We performed a T Test on this data as well, with a null hypothesis that the aver
 
 
 ## Ladybug Sript 2
-![image](https://user-images.githubusercontent.com/98784364/167914547-93cbbc0f-0064-4964-8a1b-95e0fbd95ce1.png)
+![image](https://user-images.githubusercontent.com/98784364/167916686-1300943c-2d7f-436e-90d1-2fbacd11d504.png)
 
 
 
