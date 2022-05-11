@@ -10,7 +10,7 @@ We had difficulties finding what variables and values we needed in order to dete
 
 
 ## Butterfly Script Chart 2
-![image](https://user-images.githubusercontent.com/98784364/167905294-87cfec5f-a6f2-4e6f-bce8-f972ea444def.png)
+![image](https://user-images.githubusercontent.com/98784364/167906975-cff7b8e5-0da3-47e0-943f-b3e62eee3ab6.png)
 
 This graph shows the average total butterfly wing area by country. These results were created in "CabbageButterflyByLocation."
 Some of the mistakes and difficulties we ran into included:
