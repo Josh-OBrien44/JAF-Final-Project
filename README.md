@@ -32,6 +32,8 @@ Some of the mistakes/difficulters we ran into with this script was getting rid o
 We performed a T Test on this data as well, with a null hypothesis that the average number of ladybugs per epithet was 8. Our p-value resulted in a value of 0.04772, allowing us to reject our null hypothesis. The average number of ladybugs per epithet was 36.66667.
 
 
+## Ladybug Sript 2
+![image](https://user-images.githubusercontent.com/98784364/167914547-93cbbc0f-0064-4964-8a1b-95e0fbd95ce1.png)
 
 
 
