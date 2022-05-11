@@ -8,10 +8,11 @@ library(readr)
 rm(list = ls())
 setwd("C:/Users/flynn/OneDrive/Desktop/Augie Junior Year/DATA 332-01")
 
-
+#Defining DataFrame
 df_ladybug <- read_excel("FinalProject/Ladybug Data.xlsx", sheet = 1)
 df_scanladybug <- read_excel("FinalProject/Scan Ladybug Data.xlsx", sheet = 1)
 
+$Selecting Columns necessary
 colnames(df_scanladybug)
 df_scan_ladybug <- df_scanladybug %>%
   dplyr::select("catalogNumber","id","institutionCode", "collectionCode", "collectionID", 
@@ -34,6 +35,7 @@ df_scan_ladybug <- df_scanladybug %>%
 
 unique(df_scan_ladybug$collector)
 
+#Renaming Cell Values with Spelling Errors
 df_scan_ladybug$collector <- str_replace(df_scan_ladybug$collector, "J Hughes", "J. Hughes")
 df_scan_ladybug$collector <- str_replace(df_scan_ladybug$collector, "Jack Hughes", "J. Hughes")
 df_scan_ladybug$collector <- str_replace(df_scan_ladybug$collector, "j. Hughes", "J. Hughes")
@@ -79,12 +81,12 @@ df_scan_ladybug$collector <- str_replace(df_scan_ladybug$collector, "hippodamia 
 df_scan_ladybug$collector <- str_replace(df_scan_ladybug$collector, "Coccinella septempunctata", "Coccinella Septempunctata")
 
 
-#omit function to get rid of all null values
+#Omit function to get rid of all null values
 df_scan_ladybug <- na.omit(df_scan_ladybug)
 
 
-#species hippodamia parenthesis by state
-#stacked barplot
+#Species hippodamia parenthesis by state
+#Stacked barplot
 counts <- table(df_scan_ladybug$collector, df_scan_ladybug$Species)
 barplot(counts, main="Species by Collector",
         xlab="Name of Species", ylab="Number of Species", col=c("darkblue","red", "green", "orange"),
