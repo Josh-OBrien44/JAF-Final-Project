@@ -25,3 +25,17 @@ Some of the mistakes/difficulties we encountered in this script was creating a t
 
 
 ## Ladybug Script 1
+![image](https://user-images.githubusercontent.com/98784364/167908506-6c1b8f60-2295-4ec1-8aca-406a041b9b8c.png)
+
+This graph shows the number of ladybugs found by each specific epithet. The specific epithet of a butterfly is the specific type/branch of species it falls under. These results were created in "LadybugBySpecificEpithet."
+Some of the mistakes/difficulters we ran into with this script was getting rid of the null values and creating a chart that was was easily understoof by the reader. 
+We performed a T Test on this data as well, with a null hypothesis that the average number of ladybugs per epithet was 8. Our p-value resulted in a value of 0.04772, allowing us to reject our null hypothesis. The average number of ladybugs per epithet was 36.66667.
+
+
+
+
+
+
+
+
+
