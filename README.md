@@ -10,4 +10,15 @@ We had difficulties finding what variables and values we needed in order to dete
 
 
 ## Butterfly Script Chart 2
+![image](https://user-images.githubusercontent.com/98784364/167905294-87cfec5f-a6f2-4e6f-bce8-f972ea444def.png)
 
+This graph shows the average total butterfly wing area by country. These results were created in "CabbageButterflyByLocation."
+Some of the mistakes and difficulties we ran into included:
+The T Test performed had a null hypothesis that the average total butterfly wing area among all countries was 560 mm, and the T Test showed a p-value of 0.03794, which confirmed us to reject the null hypothesis. The average value among all total wing area was 627.4414 mm.
+
+
+## Butterfly Script Chart 3
+![image](https://user-images.githubusercontent.com/98784364/167906182-7fc73749-6b97-43e3-b2b2-f18fabd4d5f0.png)
+
+This graph shows the mean, median, minimum, and maximum values of the total wing area (mm) differentiated by male and female butterflies. These results were created in "CabbageButterflyBySex."
+Some of the mistakes/difficulties we encountered in this script was creating a tidy dataframe with all of the summary statistics (mean, median, min, max). We also had some difficulty placing each summary statistic directly next to each other so that the graph showed an easier understoof representation of comparing male statistics to female statistics. 
