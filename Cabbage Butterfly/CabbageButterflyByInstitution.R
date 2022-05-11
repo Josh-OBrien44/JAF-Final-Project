@@ -29,18 +29,6 @@ df_butterfly <- read_excel("FinalProject/CompletePierisData_2022-03-09.xlsx", sh
                 "decimalLatitude" = "dwc:decimalLatitude",
                 "decimalLongitude" = "dwc:decimalLongitude",
                 "coordinateUncertaintyInMeters" = "dwc:coordinateUncertaintyInMeters") 
-
-#Converting "U.S.A" and "USA" to be "United States" in the Country Column
-  df_butterfly$Country <- str_replace(df_butterfly$Country, "USA", "United States")
-  df_butterfly$Country <- str_replace(df_butterfly$Country, "U.S.A.", "United States")
-
-#Converting "F" and "M" to "female" and "male," respectively, in the SexUpdated Column
-  df_butterfly$SexUpdated <- str_replace(df_butterfly$SexUpdated, "F", "female")
-  df_butterfly$SexUpdated <- str_replace(df_butterfly$SexUpdated, "M", "male")
-  df_butterfly$SexUpdated <- str_replace_all(df_butterfly$SexUpdated, "[[:punct:]]", "") 
-  
-
-
   
     
 #Number of Butterflies by Institution Visualization  
