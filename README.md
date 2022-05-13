@@ -23,9 +23,10 @@ RW Apex A - peak point of the right wing
 ![image](https://user-images.githubusercontent.com/98784364/167743735-712f8366-032b-49a4-b2d2-f2d8bd4395d4.png)
 
 This graph shows the number of butterflies found per institution in the entire dataset. These results were created in "CabbageButterflyByInstitution."
-Some of the mistakes we made/encountered includes renaming the column names to be able to read much easier and to avoid the warnings while first creating the dataset. 
-The T Test performed had a null hypothesis that the average number of butterflies was 30, and the T Test showed a p-value of 0.03826, which confirmed us to reject the null hypothesis. The average value was 75.91667.
-We had difficulties finding what variables and values we needed in order to determine our p-value to reject our null hypothesis.
+
+To begin, we set the working directory and defined the dataset to the "CompletePierisData_2022-03-09." Following this, we renamed the column names to make the datafram emuch easier to read and easier to access those file name, especially since they had warnings due to the columns including "dwc" in the column name. We did this by using the dplyr::rename() function. After our column names were cleaned, we created a much smaller dataframe only utilizing the Institution name as a column, and the count of butterflies found per institution as the second column. This made it much easier to create a bar chart to visualize the differences between institutions' collections. To create this dataframe, we first defined a new dataframe, using the untidy dataframe we had already defined, and then cleaned it using the dplyr::group_by() and dplyr::summarise(number=n()) functions. Next we plotted the smaller dataframe as a bar chart, with the institution names on the x-axis and the count value on the y-axis, which very clearly showed which institutions collected the most and least amount of data. To do this, we used the ggplot() functions and utilized the specific details to get the dimensions and labelss that were most descriptive of the data. Lastly, the T Test performed had a null hypothesis that the average number of butterflies was 30, and the T Test showed a p-value of 0.03826, which confirmed us to reject the null hypothesis. The average value was 75.91667.
+
+Some of the mistakes we made/encountered includes renaming the column names to be able to read much easier and to avoid the warnings while first creating the dataset. We had difficulties finding what variables and values we needed in order to determine our p-value to reject our null hypothesis.
 
 
 ### Butterfly Script Chart 2
@@ -78,17 +79,22 @@ Specific Epithet - descriptive term, accompanying or occurring in place of a the
 ![image](https://user-images.githubusercontent.com/98784364/167908506-6c1b8f60-2295-4ec1-8aca-406a041b9b8c.png)
 
 This graph shows the number of ladybugs found by each specific epithet. The specific epithet of a butterfly is the specific type/branch of species it falls under. These results were created in "LadybugBySpecificEpithet."
-Some of the mistakes/difficulters we ran into with this script was getting rid of the null values and creating a chart that was was easily understoof by the reader. 
-We performed a T Test on this data as well, with a null hypothesis that the average number of ladybugs per epithet was 8. Our p-value resulted in a value of 0.04772, allowing us to reject our null hypothesis. The average number of ladybugs per epithet was 36.66667.
+
+To start with this dataset, we again set the working directory and defined the datasets using both "Ladybug Data" and "Scan Ladybug Data." From here, we selected the columns in which we decided would be useful to the data we wanted to visualize, and then renamed some of the column names to make it easier to read and access. Then, we combined the two dataframes to utilize data from each, and omitted null values that were not useful towards our necessary data. To do this, we used dplyr::select(), dplyr::rename(), and na.omit() functions. From here, we created a new dataframe using only the necessary columns to show the specific epithet and its count. This dataframe had two columns; one with each Epithet name and a second with its total count found. To do this, we used functions dplyr::group_by(), and dplyr::summarise(number=n()). Next we visualized the data in a bar chart comparing the count of each epithet. We did this using the ggplot() function. Finally, we performed a T Test on this data as well, with a null hypothesis that the average number of ladybugs per epithet was 8. Our p-value resulted in a value of 0.04772, allowing us to reject our null hypothesis. The average number of ladybugs per epithet was 36.66667.
+
+Some of the mistakes/difficulters we ran into with this script was getting rid of the null values and creating a chart that was was easily understood by the reader. 
 
 
 ### Ladybug Sript 2
 ![image](https://user-images.githubusercontent.com/98784364/167916686-1300943c-2d7f-436e-90d1-2fbacd11d504.png)
 
-This graph shows the type of species each collector has found. There are five ladybug species types that are shown on the graph and mainly 4 people- V. Cervantes, O. Ruffatto, M. Gorsegner and J. Hughes- represented by the colors Orange, Green, Red and Blue respectively that collected them. One of the major challenges doing this graph was cleaning up the data and representing the names of all species on the graph. Each species was recorded with different spellings which had to be changed to the same standard spelling. Similarly the name of the Collectors was also recorded differently. By going through each unique value present in the columns of species and collector names, we were able to replace different names to one standard name. This gave us a better graph with simple and clean legend. However, because there were a multitude of species with long names, representing them on the graph was difficult so we were able to show five of the species on our graph.
 
 
 
+
+
+### Ladybug Script 3
+![image](https://user-images.githubusercontent.com/98784364/168387712-d27c1212-fd84-4db8-b0a5-9522d97fabd1.png)
 
 
 
