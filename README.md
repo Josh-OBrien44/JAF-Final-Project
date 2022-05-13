@@ -1,6 +1,22 @@
 # JAF-Final-Project
 
-#Butterfly Data
+# Butterfly Data
+
+Core ID - the identification number assigned to each of the collected butterflies
+
+Sex - the sex (male or female ) of each butterfly
+
+LW Length - distance (in mm) from the top of left wing to the bottom
+
+LW width - distance (in mm) from where the wing meets the body to the edge of the left wing
+
+LW Apex A - peak point of the left wing
+
+RW length - distance (in mm) from the top of right wing to the bottom
+
+RW width - distance (in mm) from where the wing meets the body to the edge of the right wing
+
+RW Apex A - peak point of the right wing
 
 ## Butterfly Script Chart 1 
 ![image](https://user-images.githubusercontent.com/98784364/167743735-712f8366-032b-49a4-b2d2-f2d8bd4395d4.png)
