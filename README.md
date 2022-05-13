@@ -29,18 +29,31 @@ Some of the mistakes/difficulties we encountered in this script was creating a t
 Data dictionary/ column definitions
 
 Scan Code- Augustana code given to each ladybug
+
 Species - Species type for each of the collected ladybugs
+
 Collector - the name of the person who collected the ladybug
+
 Country - Country the ladybug was collected from
+
 County - County the ladybug was collected from
+
 State Province - State Province the ladybug was collected from
-Year- Year the ladybug was collected 
-Genus - taxonomic rank used to identify the ladybugs
+
+Year- Year the ladybug was collected
+
+Genus - eighth taxonomic rank used to identify the ladybugs
+
 Kingdom - the second highest taxonomic category of the ladybugs 
+
 Order - sixth highest taxonomic rank to identify the ladybugs
+
 Family - seventh highest taxonomic to identify the ladybugs
+
 Class - fifth taxonomic rank to identify the ladybugs
+
 Phylum - fourth taxonomic rank to identify the ladybugs
+
 Specific Epithet - descriptive term, accompanying or occurring in place of a the ladybug’s name
 
 ![image](https://user-images.githubusercontent.com/98784364/167908506-6c1b8f60-2295-4ec1-8aca-406a041b9b8c.png)
