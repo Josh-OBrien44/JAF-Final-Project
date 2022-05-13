@@ -1,6 +1,8 @@
 # JAF-Final-Project
 
-## Butterfly Script Chart 1
+#Butterfly Data
+
+## Butterfly Script Chart 1 
 ![image](https://user-images.githubusercontent.com/98784364/167743735-712f8366-032b-49a4-b2d2-f2d8bd4395d4.png)
 
 This graph shows the number of butterflies found per institution in the entire dataset. These results were created in "CabbageButterflyByInstitution."
@@ -23,7 +25,7 @@ The T Test performed had a null hypothesis that the average total butterfly wing
 This graph shows the mean, median, minimum, and maximum values of the total wing area (mm) differentiated by male and female butterflies. These results were created in "CabbageButterflyBySex."
 Some of the mistakes/difficulties we encountered in this script was creating a tidy dataframe with all of the summary statistics (mean, median, min, max). We also had some difficulty placing each summary statistic directly next to each other so that the graph showed an easier understoof representation of comparing male statistics to female statistics. 
 
-
+# Ladybug Data
 ## Ladybug Script 1
 
 Data dictionary/ column definitions
