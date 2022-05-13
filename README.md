@@ -85,6 +85,8 @@ We performed a T Test on this data as well, with a null hypothesis that the aver
 ### Ladybug Sript 2
 ![image](https://user-images.githubusercontent.com/98784364/167916686-1300943c-2d7f-436e-90d1-2fbacd11d504.png)
 
+This graph shows the type of species each collector has found. There are five ladybug species types that are shown on the graph and mainly 4 people- V. Cervantes, O. Ruffatto, M. Gorsegner and J. Hughes- represented by the colors Orange, Green, Red and Blue respectively that collected them. One of the major challenges doing this graph was cleaning up the data and representing the names of all species on the graph. Each species was recorded with different spellings which had to be changed to the same standard spelling. Similarly the name of the Collectors was also recorded differently. By going through each unique value present in the columns of species and collector names, we were able to replace different names to one standard name. This gave us a better graph with simple and clean legend. However, because there were a multitude of species with long names, representing them on the graph was difficult so we were able to show five of the species on our graph.
+
 
 
 
