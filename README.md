@@ -2,6 +2,7 @@
 
 # Butterfly Data
 
+# Data dictionary/ column definitions
 Core ID - the identification number assigned to each of the collected butterflies
 
 Sex - the sex (male or female ) of each butterfly
@@ -44,7 +45,7 @@ Some of the mistakes/difficulties we encountered in this script was creating a t
 # Ladybug Data
 ## Ladybug Script 1
 
-Data dictionary/ column definitions
+# Data dictionary/ column definitions
 
 Scan Code- Augustana code given to each ladybug
 
