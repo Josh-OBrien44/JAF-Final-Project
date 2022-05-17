@@ -126,7 +126,7 @@ Some of the mistakes and difficulties we ran into included:
 - Filtering out the 2020's decade from the graph. This was a difficult decision to make because we were getting rid of a whole decade's worth of data. However, we decided that the 2020's heavily skewed our data and the graph so we decided to remove it.
 
 ### Ladybug Script 4 > Pivot Table
-![image]()
+![image](https://github.com/Josh-OBrien44/JAF-Final-Project/blob/main/Data%20Visualizations/Pivot%20Table-Ladybug.png)
 
 For this graph we used an Excel Pivot table to identify the count of the genus of Ladybugs that were collected each day of the month. The seventh day of the month specifically shows a high number of the coleomegilla ladybug collected. The first few days of the month and the middle of the month (17-24) show a high collection of ladybugs overall. Controlling confounding variables, the correlation of the genus of ladybugs and their collection day as shown in this graph is helpful to understand and predict the days of the month that one could successfully collect ladybugs. 
 
