@@ -57,7 +57,7 @@ Some of the mistakes and difficulties we ran into included:
 
 
 ### Butterfly Script Chart 4 > Pivot Table
-![image]()
+![image](https://github.com/Josh-OBrien44/JAF-Final-Project/blob/main/Data%20Visualizations/Pivot%20Table-%20Butterfly.png)
 
 This is graph shows the count of each butterfly with Right and Left Black Patch Apex by continents. We can observe that the Pieris Rapae(Linnaeus, 1758) that was collected in Europe has the highest count. Others are collected both in Europe and the US and have relatively few counts. This is helpful to distinguish between the continents with the specific types of butterflies identified by scientific name as well as their physiological nature(Black patch Apex).
 
