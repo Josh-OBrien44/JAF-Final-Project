@@ -56,6 +56,13 @@ Some of the mistakes and difficulties we ran into included:
 - We also had some difficulty placing each summary statistic directly next to each other so that the graph showed an easier-to-understand representation of comparing male statistics to female statistics. This difficulty was eased with the employment of the fct_inorder function that allowed us to plot our data in the order in which it appeared in the dataframe table.
 
 
+### Butterfly Script Chart 4 > Pivot Table
+![image]()
+
+This is graph shows the count of each butterfly with Right and Left Black Patch Apex by continents. We can observe that the Pieris Rapae(Linnaeus, 1758) that was collected in Europe has the highest count. Others are collected both in Europe and the US and have relatively few counts. This is helpful to distinguish between the continents with the specific types of butterflies identified by scientific name as well as their physiological nature(Black patch Apex).
+
+
+
 ## Ladybug Data
 
 ### Data Dictionary
@@ -117,5 +124,10 @@ Some of the mistakes and difficulties we ran into included:
 - Cleaning the joined dataframe. There were just so many inconsistencies to fix that the process became a hassle. It was not so much a mistake or difficulty, but rather an obstacle. We did not want to do it (because it took so much time), but needed to do it as it would make the data so much easier to interpret (this goes for all scripts we wrote that involved the ladybug data).
 - Creating the decade column. We first tried creating a flooring function to creating the decades (flooring is replacing the last value of the year with a zero which means that 1982 would then become 1980 and so on), and it worked, but would return the decade values in a list rather than a dataframe. So, we needed to change our method and decided to make a new substring of the first 3 characters of the year value and then paste "0's" at the end of each one (1984 -> 198 -> 1980's).
 - Filtering out the 2020's decade from the graph. This was a difficult decision to make because we were getting rid of a whole decade's worth of data. However, we decided that the 2020's heavily skewed our data and the graph so we decided to remove it.
+
+### Ladybug Script 4 > Pivot Table
+![image]()
+
+For this graph we used an Excel Pivot table to identify the count of the genus of Ladybugs that were collected each day of the month. The seventh day of the month specifically shows a high number of the coleomegilla ladybug collected. The first few days of the month and the middle of the month (17-24) show a high collection of ladybugs overall. Controlling confounding variables, the correlation of the genus of ladybugs and their collection day as shown in this graph is helpful to understand and predict the days of the month that one could successfully collect ladybugs. 
 
 
