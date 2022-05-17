@@ -108,7 +108,15 @@ Some of the mistakes and difficulties we ran into included:
 ### Ladybug Sript 2
 ![image](https://user-images.githubusercontent.com/98784364/167916686-1300943c-2d7f-436e-90d1-2fbacd11d504.png)
 
+This graph shows the number of ladybugs found by each collector. This chart and data used to make it was created in "LadybugByCollector."
 
+To begin, we started by setting the working directory to where the datasets were located in our computer and calling those files, which would be "Ladybug Data" and "Scan Ladybug Data." From here, we called the columns that we deemed necessary to our charts/evaluations. This was done by using left_join to join the two datasets and utilize both datasets. After creating one large dataset, we renamed the cells in the "collector" column so that all of the same values with spelling errors had the exact same form and spelling using str_replace(). Many of the names in this column had either the full name, an abbreviation, or simple spelling mistakes so the code was unable to understand that there was only four values while it was reading over 20. After completeing that, we did the same to the species column to do the same function/idea. Next we omitted the null values in our new dataset to avoid a skew of data due to unknown values. From here, we defined and plotting a segmented bar chart to show the number of ladybugs each collector found per species. This showed how the collectors differed in the overall number of ladybugs tehey collected along with how many they collected of each species in comparison to the other collectors. Lastly, we created a simple dataframe of the total number of ladybugs collected by each collected. We found that "O. Ruffatto" collected the most with a number of 116 ladybugs, and "M. Goresnger" collected the least with a umber of 109 ladybugs. 
+
+Some of the difficulties/mistakes we faced in this dataset includes:
+- Cleaning the data to verify that all of the collector names and species names had the same exact value, making it easier for the code to understand and read the data. There were so many different kinds of mistakes that it was difficult to look for and find each mistake and correct it.
+- Researching how to use the str_replace() function was also difficult in the sense that it needed the exact correct parameters in relation to our dataset. 
+- Plotting a segemeted bar graph was much more difficult that plotting a regular ggplot graph. This had much different parameters to enter.
+- A mistake we were unable to fix/determine a solution for was the x labels and ensuring all of them were visible and readable while still fitting on the graph. Because this was different than a usual ggplot graph, the parameters we used to ggplot did not work for this graph in the same way. We ended up only showing five of the species names along the x-axis.
 
 
 
